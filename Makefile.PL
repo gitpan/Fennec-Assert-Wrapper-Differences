@@ -5,6 +5,7 @@ WriteMakefile
           'NAME' => 'Fennec::Assert::Wrapper::Differences',
           'VERSION_FROM' => 'lib/Fennec/Assert/Wrapper/Differences.pm',
           'PREREQ_PM' => {
+                           'Fennec' => 0,
                            'Test::More' => 0
                          },
           'INSTALLDIRS' => 'site',
