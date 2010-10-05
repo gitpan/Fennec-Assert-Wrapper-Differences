@@ -1,0 +1,46 @@
+{
+   "abstract" : "Fennec wrapper for L<Test::Differences>",
+   "author" : [
+      "ben hengst <notbenh@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.101900, CPAN::Meta::Converter version 2.101670",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Fennec-Assert-Wrapper-Differences",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Fennec" : 0,
+            "Module::Build" : "0.3601",
+            "Test::Differences" : 0,
+            "Test::More" : 0
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31",
+            "Module::Build" : "0.3601"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "fennec-assert-wrapper-differences@rt.cpan.org",
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Fennec-Assert-Wrapper-Differences"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/notbenh/Fennec-Assert-Wrapper-Differences.git",
+         "web" : "http://github.com/notbenh/Fennec-Assert-Wrapper-Differences"
+      }
+   },
+   "version" : "0.03"
+}
+

@@ -4,19 +4,20 @@ author:
   - 'ben hengst <notbenh@cpan.org>'
 build_requires:
   Fennec: 0
+  Module::Build: 0.3601
+  Test::Differences: 0
   Test::More: 0
 configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3607'
+  ExtUtils::MakeMaker: 6.31
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.101900, CPAN::Meta::Converter version 2.101670'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Fennec-Assert-Wrapper-Differences
-provides:
-  Fennec::Assert::Wrapper::Differences:
-    file: lib/Fennec/Assert/Wrapper/Differences.pm
-    version: 0.02
 resources:
-  license: http://dev.perl.org/licenses/
-version: 0.02
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Fennec-Assert-Wrapper-Differences
+  repository: git://github.com/notbenh/Fennec-Assert-Wrapper-Differences.git
+version: 0.03

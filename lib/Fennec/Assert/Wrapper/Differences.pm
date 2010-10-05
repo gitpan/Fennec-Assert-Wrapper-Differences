@@ -1,4 +1,7 @@
 package Fennec::Assert::Wrapper::Differences;
+BEGIN {
+  $Fennec::Assert::Wrapper::Differences::VERSION = '0.03';
+}
 
 use warnings;
 use strict;
@@ -7,17 +10,7 @@ use Fennec::Assert;
 use Fennec::Output::Result;
 require Test::Differences;
 
-=head1 NAME
-
-Fennec::Assert::Wrapper::Differences - Fennec wrapper for L<Test::Differences>
-
-=head1 VERSION
-
-Version 0.02
-
-=cut
-
-our $VERSION = '0.02';
+# ABSTRACT: Fennec wrapper for L<Test::Differences>
 
 for my $name ( qw{eq_or_diff eq_or_diff_text eq_or_diff_data unified_diff context_diff oldstyle_diff table_diff} ) {
     no strict 'refs';
@@ -26,6 +19,19 @@ for my $name ( qw{eq_or_diff eq_or_diff_text eq_or_diff_data unified_diff contex
 };
 
 1;                                                                                                                                                                                                                                                                                         
+
+
+
+__END__
+=pod
+
+=head1 NAME
+
+Fennec::Assert::Wrapper::Differences - Fennec wrapper for L<Test::Differences>
+
+=head1 VERSION
+
+version 0.03
 
 =head1 WRAPPED FUNCTIONS
 
@@ -96,6 +102,17 @@ under the terms of either: the GNU General Public License as published
 by the Free Software Foundation; or the Artistic License.
 
 See http://dev.perl.org/licenses/ for more information.
+
+=head1 AUTHOR
+
+  ben hengst <notbenh@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2010 by ben hengst.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
 
